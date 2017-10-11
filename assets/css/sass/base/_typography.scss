@@ -1,0 +1,53 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+select,
+button {
+    font-family: 'Ubuntu' , sans-serif;
+}
+
+/*Font sizes*/
+
+html,
+body{
+    font-size: 20px;
+}
+
+p{
+    font-size:20px;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+h1{
+    font-size:35px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size:28px;
+}
+
+h3{
+    font-size:22px;
+}
+
+h4{
+    font-size:20px;
+    font-weight:bold;
+}
+
+strong{
+    font-weight:bold;
+}
+
+

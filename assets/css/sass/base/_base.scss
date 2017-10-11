@@ -1,0 +1,34 @@
+//em function
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
+
+//font-size:em(20);
+
+//breakpoints
+
+$tablet: 'min-width: 40em';
+
+$desktop: 'min-width: 64em';
+
+//eg @media print, screen and ($tablet){}
+
+
+/* Clearfixes */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+img { 
+    -ms-interpolation-mode: bicubic; 
+}
+ 
+/* Adds border box to every element */
+*, *:before, *:after {
+  box-sizing: border-box;
+}

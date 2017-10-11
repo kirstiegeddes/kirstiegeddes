@@ -1,0 +1,29 @@
+{
+  "name": "kirstiegeddes.github.io",
+  "version": "1.0.0",
+  "description": "showcase of work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\ "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirstiegeddes/kirstiegeddes.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "kirstiegeddes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirstiegeddes/kirstiegeddes.github.io/issues"
+  },
+  "homepage": "https://github.com/kirstiegeddes/kirstiegeddes.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
