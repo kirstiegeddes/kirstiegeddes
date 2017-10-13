@@ -1,5 +1,29 @@
+.header-inner-wrapper {
+    max-width:em(1200);
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+.logo-name {
+    display:flex;
+    align-items: center;
+    .name {
+        margin-bottom:0px;
+        display:none;
+    }
+}
 .logo {
     background-size:contain;
-    height:70px;
-    text-indent:-1000px;
+    height:em(70);
+    text-indent:-2000px;
+    width:6em;
 }
+
+
+/*@media print, screen and (min-width:$tablet) {
+    .logo-name {
+        .name {
+            display:block;
+        }
+    }
+}*/
