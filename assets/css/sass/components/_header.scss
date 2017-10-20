@@ -1,3 +1,8 @@
+header {
+    border-bottom:2px solid #000;
+    position:fixed;
+    width:100%;
+}
 .header-inner-wrapper {
     max-width:em(1200);
     margin:0 auto;
@@ -20,10 +25,10 @@
 }
 
 
-/*@media print, screen and (min-width:$tablet) {
+@media screen and ($tablet) {
     .logo-name {
         .name {
             display:block;
         }
     }
-}*/
+}

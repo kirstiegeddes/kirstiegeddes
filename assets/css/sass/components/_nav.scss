@@ -1,1 +1,41 @@
+.jsHamburger {
+    font-size:50px;
+    padding:5px;
+    align-self:center;
+    cursor:pointer;
+    i {
+        color:$primary-color;
+    }
+}
 
+nav {
+    display:none;
+}
+
+
+@media screen and ($desktop) {
+    nav {
+        width:30%;
+        display:flex;
+        align-items:center;
+        ul {
+            width:100%;
+        }
+        li {
+            width:33.3%;
+            float:left;
+            border-right:1px solid #000;
+            text-align:center;
+            cursor:pointer;
+            &:hover{
+            color:#9e91a9;
+            }
+        }
+        li:nth-child(3n) {
+            border:none;
+        }
+    }
+    .jsHamburger {
+        display:none;
+    }
+}
