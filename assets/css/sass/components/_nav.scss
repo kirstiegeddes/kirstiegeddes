@@ -116,6 +116,9 @@ nav {
         width:30%;
         display:flex;
         align-items:center;
+        .menu {
+            width:100%;
+        }
         ul {
             width:100%;
         }
@@ -126,7 +129,7 @@ nav {
             text-align:center;
             cursor:pointer;
             &:hover{
-            color:#9e91a9;
+            color:$primary-color;
             }
         }
         li:nth-child(3n) {
